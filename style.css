@@ -262,6 +262,15 @@ section {
   color: #b9b9b9;
 }
 
+.menu-ul{
+  font-size: 2.5rem;
+}
+
+#myTabContent{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 /*our-menu style ends*/
 
 /*our chef style start*/
