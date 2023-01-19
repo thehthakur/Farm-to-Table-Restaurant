@@ -262,11 +262,11 @@ section {
   color: #b9b9b9;
 }
 
-.menu-ul{
+.menu-ul {
   font-size: 2.5rem;
 }
 
-#myTabContent{
+#myTabContent {
   color: #ffffff;
   font-size: 1.5rem;
 }
@@ -274,63 +274,59 @@ section {
 /*our-menu style ends*/
 
 /*our chef style start*/
-.our-chef
-{
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+.our-chef {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
-.our-chef .item .image img 
-{
-	width: 100%;
+.our-chef .item .image img {
+  width: 100%;
 }
-.our-chef .item
-{
-	position: relative;
-	z-index: 2;
-	overflow: hidden;
+.our-chef .item {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 }
 /* .our-chef .item
 {
 
 } */
-.our-chef .item:before
-{
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 100%;
-	display: none;
-	top: 0;left: 0;right: 0;bottom: 0;
-	background: rgba(0, 0, 0, .5);
-	z-index: 5;
+.our-chef .item:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
 }
 /*video mate....*/
-.videowidth
-{
-	/* width: 450px; */
+.videowidth {
+  /* width: 450px; */
   height: 500px;
-	cursor:pointer;
-	position: relative;
+  cursor: pointer;
+  position: relative;
 }
-video
-{
-	cursor:pointer;
-	width:95%;
+video {
+  cursor: pointer;
+  width: 95%;
 }
 
-#playpause_img{
-
-background-size: cover;
-background-repeat: no-repeat;
-width: 70px;
-height: 70px;
-position: absolute;
-left:0 ;
-right:0 ;
-top:0 ;
-bottom:0;
-margin:auto;
+#playpause_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 /*our chef style ends*/
 
@@ -496,8 +492,8 @@ margin:auto;
 }
 
 #QRimg {
-	max-width: 80%;
-	max-height: 80%;
+  max-width: 80%;
+  max-height: 80%;
 }
 /*footer style ends*/
 
@@ -602,19 +598,29 @@ margin:auto;
   .reservation .form .form-holder {
     display: block;
   }
-  .footer-col
-    {
-        width: 50%;
-        /* padding: 50%; */
-        margin-bottom: 30px;
-
-    }
+  .footer-col {
+    width: 50%;
+    /* padding: 50%; */
+    margin-bottom: 30px;
+  }
 }
 
-@media(max-width: 574px)
-{
-    .footer-col
-    {
-        width: 100%;
-    }
+/* Bootstrap edits start */
+.nav-link {
+  color: #9f9f6c;
+}
+
+.nav-item > a:hover {
+  color: #797777;
+}
+.nav-pills .nav-link.active {
+  background-color: #b8986f;
+}
+
+/* Bootstrap edits end */
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
